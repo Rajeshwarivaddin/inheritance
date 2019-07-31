@@ -1,0 +1,19 @@
+ackage constractor;
+
+public class kk2 {
+	protected String brand="FORD";
+	public void honk() {
+		System.out.println("tunt tunt");
+	}
+	}
+class kk2 extends vehicle{
+private string model ="mostering";	
+public static void main(String[] args) {
+	kk2 mycar = new kk2();
+	mycar.honk();
+	System.out.println("mycar.brand" +"mycar.model");
+	
+
+	}
+
+}
